@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evolve Worldwide Import Export LLC</title>
+<meta name="description" content="Evolve Worldwide Import Export sources food products from established US manufacturers and supplies them to buyers abroad.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M32 6C32 6 14 28 14 40a18 18 0 0 0 36 0C50 28 32 6 32 6z' fill='%23C8962E'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --field: #F5F6F2;
+    --ink: #1D2622;
+    --muted: #56625C;
+    --olive: #2E4A38;
+    --oil: #C8962E;
+    --rule: #D9DDD5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --field: #151B18;
+      --ink: #E9ECE6;
+      --muted: #A3AEA7;
+      --olive: #9CC3A8;
+      --oil: #D9A845;
+      --rule: #2C3630;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--field);
+    color: var(--ink);
+    font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    font-variation-settings: "wdth" 100;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 0 1.5rem; }
+
+  header { border-top: 6px solid var(--oil); }
+  header .wrap { padding-top: 1.75rem; padding-bottom: 1.75rem; display: flex; align-items: center; gap: 0.75rem; }
+  .mark { width: 1.6rem; height: 1.6rem; flex: none; }
+  .wordmark { font-weight: 700; font-size: 1rem; letter-spacing: 0.01em; }
+
+  .hero { padding: 3.5rem 0 3rem; }
+  .hero h1 {
+    font-variation-settings: "wdth" 125;
+    font-weight: 800;
+    font-size: clamp(2.25rem, 6.5vw, 3.75rem);
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+    color: var(--olive);
+    max-width: 17ch;
+  }
+  .hero p { margin-top: 1.5rem; font-size: 1.25rem; line-height: 1.5; color: var(--muted); max-width: 34rem; }
+
+  section { padding: 2.5rem 0; border-top: 1px solid var(--rule); }
+  h2 { font-weight: 700; font-size: 1.25rem; margin-bottom: 1rem; }
+  section p { max-width: 38rem; }
+
+  ol.steps { list-style: none; counter-reset: step; display: grid; gap: 1.5rem; }
+  ol.steps li { counter-increment: step; display: grid; grid-template-columns: 2.5rem 1fr; }
+  ol.steps li::before {
+    content: counter(step);
+    font-variation-settings: "wdth" 125;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: var(--oil);
+  }
+  ol.steps strong { display: block; font-weight: 700; }
+  ol.steps span { color: var(--muted); }
+
+  dl.contact { display: grid; grid-template-columns: max-content 1fr; gap: 0.5rem 2rem; }
+  dl.contact dt { color: var(--muted); }
+  dl.contact dd { font-weight: 500; overflow-wrap: anywhere; }
+  a { color: var(--olive); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 2px solid var(--oil); outline-offset: 3px; border-radius: 2px; }
+
+  footer { border-top: 1px solid var(--rule); padding: 2rem 0 3rem; color: var(--muted); font-size: 0.875rem; }
+
+  @media (max-width: 30rem) {
+    dl.contact { grid-template-columns: 1fr; gap: 0.1rem; }
+    dl.contact dd { margin-bottom: 0.75rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6C32 6 14 28 14 40a18 18 0 0 0 36 0C50 28 32 6 32 6z" fill="#C8962E"/></svg>
+    <span class="wordmark">Evolve Worldwide Import Export LLC</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>Quality food products from the United States</h1>
+    <p>We source from established US manufacturers and supply buyers abroad, with batch tested product in sealed packaging.</p>
+  </div>
+
+  <section aria-labelledby="about">
+    <h2 id="about">About us</h2>
+    <p>Evolve Worldwide Import Export is a Maryland based trading company. We focus on quality first, working with suppliers who test every batch and ship in sealed packaging, so our customers receive exactly what was produced.</p>
+  </section>
+
+  <section aria-labelledby="how">
+    <h2 id="how">How an order works</h2>
+    <ol class="steps">
+      <li><div><strong>Source</strong><span>We buy directly from trusted US manufacturers and packers.</span></div></li>
+      <li><div><strong>Verify</strong><span>Every shipment comes with supplier batch testing and full documentation.</span></div></li>
+      <li><div><strong>Ship</strong><span>We coordinate export packaging, freight, and paperwork from order to delivery.</span></div></li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">Contact</h2>
+    <dl class="contact">
+      <dt>Email</dt><dd><a href="mailto:fatimah@evolveworldwidetrade.com">fatimah@evolveworldwidetrade.com</a></dd>
+      <dt>Phone</dt><dd><a href="tel:+14435709818">(443) 570 9818</a></dd>
+      <dt>Location</dt><dd>Ellicott City, Maryland</dd>
+    </dl>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> Evolve Worldwide Import Export LLC</div>
+</footer>
+
+<script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>
